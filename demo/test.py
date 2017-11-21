@@ -2,10 +2,12 @@
 
 
 def area(width, height):
-    return width * height
+    '''计算那个面积'''
+    return width + height
 
 
-def print_welcome(name): 
+def print_welcome(name):
+    '''名字'''
     print("welcome", name)
 
 
