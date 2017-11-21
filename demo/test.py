@@ -2,7 +2,7 @@
 
 
 def area(width, height):
-    return width + height
+    return width * height
 
 
 def print_welcome(name): 
