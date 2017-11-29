@@ -53,7 +53,7 @@ def deleteToDb():
     '''删除用户'''
     print('正在删除...')
     session = initDb()
-    user = session.query(User).filter(User.id == '5').one()
+    user = session.query(User).filter(User.id == '2').one()
     session.delete(user)
     session.commit()
     session.close()

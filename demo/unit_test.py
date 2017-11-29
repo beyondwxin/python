@@ -16,10 +16,9 @@ class TestDb(unittest.TestCase):
     def setUp(self):
         print('开始测试...')
 
-
     def test_insertDb(self):
         '''测试增加user'''
-        newUser = sql.User('1', 'king')
+        newUser = sql.User('3', 'stven')
         sql.insertToDb(newUser)
 
     def test_deleteDb(self):
